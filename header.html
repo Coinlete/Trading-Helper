@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="assets/css/header.style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700;800;900&display=swap" rel="stylesheet">     
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/8e85ad6690.js" crossorigin="anonymous"></script>
+        <title>Trading Helper</title>
+    </head>
+<body>
+
+<header class="header shadow">
+  <div class="container">
+  <nav class="navbar navbar-expand-xl">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Trading Helper</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#">ГЛАВНАЯ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">РЕЖИМЫ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              FAQ
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">FAQ  <br> ответы на вопросы</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Youtube <br> обзоры, практические кейсы</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">остались вопросы? Спросите нас</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">НОВОСТИ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">КОНТАКТЫ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><button type="button" class="btn btn-secondary header-buttom">ВХОД</button>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><button type="button" class="btn btn-secondary header-buttom">РЕГИСТРАЦИЯ</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+</header>
+
+<section class="hero-section">
+<div class="container">
+    <div class="row align-items-center">
+    <div class="col-lg-6">
+        <div class="hero-elements">
+            <h1 class="hero-title">
+                Незаменимый помощник в 
+                <span class="hero-title-word">крипто-трейдинге</span>
+            </h1>
+             <p class="hero-descp">
+                Агрегатор стаканов и лент крупнейших бирж: <span class="auto-type"></span>
+            <br>
+                Показываем то, что недоступно другим, с шиком, блеском и практической пользой.
+            </p>
+            <a class="btn btn-danger hero-buttom" href="#" role="button">Попробувать</a>         
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+        <div class="row align-items-center">
+            <div class="col servise">
+                <img class="img-fluid rounded mx-auto d-block servise-images" src="assets/images/icons8-фьючерсы-40.png"/>                        
+                <h5 class="text-center servise-subtatle">Аналитика активов</h5>
+                <p class="text-center servise-descr">Аналитика волатильность и обемов в удобной статистике</p>
+            </div>
+            <div class="col servise">
+                <img class="img-fluid rounded mx-auto d-block servise-images" src="assets/images/icons8-банк-идей-40.png"/>                        
+                <h5 class="text-center servise-subtatle">Умная лента</h5>
+                <p class="text-center servise-descr">Лента позволяющия фильтровать и анализировать данные</p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col servise">
+                <img  class="img-fluid rounded mx-auto d-block servise-images" src="assets/images/icons8-инвестиционный-портфель-40.png"/>                        
+                <h5 class="text-center servise-subtatle">Все в одном</h5>
+                <p class="text-center servise-descr">Все необходимое в одном месте, а все данные в одном формате</p>
+            </div>
+            <div class="col servise">
+                <img class="img-fluid rounded mx-auto d-block servise-images" src="assets/images/icons8-групповая-задача-40.png"/>                        
+                <h5 class="text-center servise-subtatle">Подходит всем</h5>
+                <p class="text-center servise-descr">Подходит для любого вида трейдинга и стратегии</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+ 
+<section class="modes-section">
+<div class="container">
+  <h4 class="h3 text-center space-1">Доступные режимы</h4>
+  <div id="mode-section" class="position-relative text-center z-index-2 w-80 mx-lg-auto active">
+    
+    <ul class="nav nav-tabs nav-shadow nav-justified flex-lg-nowrap flex-wrap colums-2" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active d-flex justify-content-around align-items-center" id="first-tab" data-bs-toggle="tab" data-bs-target="#first" type="button" role="tab" aria-controls="first" aria-selected="true"> <img src="assets/images/icons8-ракета-40.png"> Одиночный режим </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link d-flex justify-content-around align-items-center" id="second-tab" data-bs-toggle="tab" data-bs-target="#second" type="button" role="tab" aria-controls="second" aria-selected="false"> <img src="assets/images/icons8-плагин-40.png"> Режим конструктора</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link d-flex justify-content-around align-items-center" id="third-tab" data-bs-toggle="tab" data-bs-target="#third" type="button" role="tab" aria-controls="third" aria-selected="false"> <img src="assets/images/icons8-статистика-40.png"> Режим статистики</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link d-flex justify-content-around align-items-center" id="fourth-tab" data-bs-toggle="tab" data-bs-target="#fourth" type="button" role="tab" aria-controls="fourth" aria-selected="false"> <img src="assets/images/icons8-чек-40.png"> Режим истории</button>
+      </li>
+    </ul>
+  </div>
+
+    <div class="tab-content">
+
+      <div class="tab-pane active" id="first" role="tabpanel" aria-labelledby="first-tab" tabindex="0">
+      <div class="row justify-content-lg-between align-items-lg-center">
+
+        <div class="col-lg-4">
+        <div class="mb-5">
+        <h4> А теперь представьте, когда все необходимое в одном месте и формате</h4>
+        <p class="servise-descr"> Получайте важную инсайдерскую информацию о крупных блоках и сделках, которую не покажет ни одна из бирж.</p>
+        <ul class="list-unstyled">
+          <li>
+            <i class="fa-solid fa-check blue"></i>
+            <span class="margin-left">Максимальная глубина стаканов</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check blue"></i>
+            <span class="margin-left">Умная фильтрация данных</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check blue"></i>
+            <span class="margin-left">7 топовых бирж и все ликвидные пары</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check blue"></i>
+            <span class="margin-left">Данные в режиме реального времени</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-check blue"></i>
+            <span class="margin-left">Простой, удобный и гибкий интерфейс</span>
+          </li>
+        </ul>
+      </div>
+      </div>
+
+      <div class="col-lg-8 position-relative">
+        <img class="mode-img" src="assets/images/single_ru.gif"/>
+      </div>
+      </div>
+      </div>
+
+      <div class="tab-pane" id="second" role="tabpanel" aria-labelledby="second-tab" tabindex="0">
+        <div class="row justify-content-lg-between align-items-lg-center">
+
+          <div class="col-lg-4">
+          <h5 class="mode-descrp">Хотите видеть за пределами одной биржи?</h5>
+          <p>Охватывайте глобальную картину на основных биржах одновременно и узнавайте настроения крупных участников.</p>
+          <ul>
+            <li>
+              <span>Выборка из 7 бирж и все ликвидные пары</span>
+            </li>
+            <li>
+              <span>До 4 стаканов на одном экране</span>
+            </li>
+            <li>
+              <span>Независимые гибкие настройки</span>
+            </li>
+            <li>
+              <span>Динамическое отображение текущих цен</span>
+            </li>
+            <li>
+              <span>Отличное решение для размещения на отдельном мониторе</span>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-8">
+          <img src=""/>
+        </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="third" role="tabpanel" aria-labelledby="third-tab" tabindex="0">
+        <div class="row justify-content-lg-between align-items-lg-center">
+
+          <div class="col-lg-4">
+          <h5 class="mode-descrp">Хотите видеть за пределами одной биржи?</h5>
+          <p>Охватывайте глобальную картину на основных биржах одновременно и узнавайте настроения крупных участников.</p>
+          <ul>
+            <li>
+              <span>Выборка из 7 бирж и все ликвидные пары</span>
+            </li>
+            <li>
+              <span>До 4 стаканов на одном экране</span>
+            </li>
+            <li>
+              <span>Независимые гибкие настройки</span>
+            </li>
+            <li>
+              <span>Динамическое отображение текущих цен</span>
+            </li>
+            <li>
+              <span>Отличное решение для размещения на отдельном мониторе</span>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-8">
+          <img src=""/>
+        </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="fourth" role="tabpanel" aria-labelledby="fourth-tab" tabindex="0">
+        <div class="row justify-content-lg-between align-items-lg-center">
+
+          <div class="col-lg-4">
+          <h5 class="mode-descrp">Хотите видеть за пределами одной биржи?</h5>
+          <p>Охватывайте глобальную картину на основных биржах одновременно и узнавайте настроения крупных участников.</p>
+          <ul>
+            <li>
+              <span>Выборка из 7 бирж и все ликвидные пары</span>
+            </li>
+            <li>
+              <span>До 4 стаканов на одном экране</span>
+            </li>
+            <li>
+              <span>Независимые гибкие настройки</span>
+            </li>
+            <li>
+              <span>Динамическое отображение текущих цен</span>
+            </li>
+            <li>
+              <span>Отличное решение для размещения на отдельном мониторе</span>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-8">
+          <img src=""/>
+        </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Binance", "BitfineX"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+     })
+</script>
+
+</body>
+
+</html>
